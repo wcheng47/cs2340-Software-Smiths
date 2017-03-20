@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="center" prefHeight="432.0"
+      prefWidth="421.0" spacing="40" xmlns="http://javafx.com/javafx/8.0.76-ea"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="main.java.controller.ApplicationController">
+    <VBox alignment="center" prefHeight="432.0"
+          prefWidth="421.0" spacing="40"
+          xmlns="http://javafx.com/javafx/8.0.76-ea"
+          xmlns:fx="http://javafx.com/fxml/1">
+        <padding>
+            <Insets bottom="10" left="25" right="25" top="25"/>
+        </padding>
+        <Label fx:id="applicationMessage" alignment="TOP_CENTER"
+               prefHeight="23.0" prefWidth="221.0" text="Application">
+            <font>
+                <Font name="System Bold" size="18.0"/>
+            </font>
+        </Label>
+        <Button fx:id="submitSourceReportButton" alignment="CENTER"
+                onAction="#handleSubmitSourcePressed"
+                text="Submit Source Report" textOverrun="CLIP">Submit Source
+            Report
+        </Button>
+        <Button fx:id="viewReportsButton" alignment="CENTER"
+                onAction="#handleViewReportsPressed">View Reports
+        </Button>
+        <Button fx:id="viewMapButton" mnemonicParsing="false"
+                onAction="#handleViewMapPressed">View Map Report
+        </Button>
+        <Button fx:id="createButton" alignment="CENTER"
+                onAction="#handleCreatePressed">Create Profile
+        </Button>
+        <Button fx:id="editButton" alignment="CENTER"
+                onAction="#handleEditPressed">Edit Profile
+        </Button>
+
+        <Button fx:id="submitPurityReportButton" alignment="BOTTOM_CENTER"
+                onAction="#handleSubmitPurityReportPressed">Submit PurityReport
+        </Button>
+
+    </VBox>
+    <VBox alignment="center" prefHeight="432.0"
+          prefWidth="421.0" spacing="40"
+          xmlns="http://javafx.com/javafx/8.0.76-ea"
+          xmlns:fx="http://javafx.com/fxml/1">
+        <padding>
+            <Insets bottom="10" left="25" right="25" top="25"/>
+        </padding>
+
+        <Button fx:id="viewHistoryGraphButton" alignment="CENTER"
+                onAction="#handleHistoryGraphPressed"
+                text="View HistoryGraph" textOverrun="CLIP">View History
+            Graph
+        </Button>
+        <Button fx:id="deleteUserButton" alignment="CENTER"
+                onAction="#handleDeleteUserPressed"
+                text="Delete User" textOverrun="CLIP">Delete User
+        </Button>
+        <Button fx:id="banUserButton" alignment="CENTER"
+                onAction="#handleBanUserPressed"
+                text="Ban User" textOverrun="CLIP">Ban User
+        </Button>
+        <Button fx:id="unblockUserButton" alignment="CENTER"
+                onAction="#handleUnblockPressed"
+                text="Unblock User" textOverrun="CLIP">Unblock User
+        </Button>
+        <Button fx:id="deleteReportButton" alignment="CENTER"
+                onAction="#handleDeleteReportPressed"
+                text="Delete Report" textOverrun="CLIP">Delete Report
+        </Button>
+        <Button alignment="BOTTOM_CENTER"
+                onAction="#handleLogoutPressed">Logout
+        </Button>
+
+    </VBox>
+
+</HBox>

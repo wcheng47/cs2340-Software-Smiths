@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cs2340-software-smiths",
+  "private_key_id": "4665dd93b1809a930ccdd0e32d3ebbb09f17c538",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDyvdw2k2jcmUxV\nibR7OVaAK6yU4Wgizk+6lExoJLFdRt8T5NuC3kxvU8+Bw9MAwNPOGABaJGT0vBgj\nvICddz4u1QgXsU1n4p2DoUyp2pPiMIVaNpIQl7B2BE+gaAosuDRI6QZ42QGhZyJI\n15+Sni6ld++f6fcPxFrBccIAvL5XP1i7/rQ+sIQQcf3uAXSzJ+ItMMpfscGBVAhQ\nA1xwNqosJXc69sHWzhj0/ZBpAEtZ6+HWwBzEAjROFFo4mzpgaJDPYZqaGpZ6n0YG\n1CjJteOwrfmWAok+P1rScq2SqQChDaW0bSvqvh54yxCeIkgjEFd93wrHbVmLfGQX\nkwComjc7AgMBAAECggEAXvAi0LWWrbDHSi0xiYBDdJ2gQhpmwDYwuKiHubOgKvst\nBHrd37FR87izz+zm+cRxEooQmTDiy1VFm7R+GRgqGeb340xVGexn7rOHaGc0r6KK\nhV4SgqrROVc2TWZjlFn3GQ0KmvlEyfusTREIOC/lzpG6BrFbD6+cT0xOtDsdtsEs\n1GFrKoVmH7J2HAM62OZbNNdI05Wf3QlkTxHFvAmEZxsm/sSN3fTKXxnPS5kGLtre\nBNv5oY1/ppFfjHZ8mR6ZCu+R6tvkvnIyB75Oi9UJHUQVJjlTvwyu3V9ylt3pw2i4\n5vkSxg/c9y6zWHYZSTRJVTIBcY5rJu09jcCDdUm6AQKBgQD50CDiPoUdoOboKXo+\neZ1kFNnPiPLjjHpievl0T66IlmukZeLF0X4NCZ1jj3+qJKcogCibMRGBui4uHC5o\nFiN/8mQofsXT/mVXlZDBXDAvWG+c6BGBAGCht8alOwTIWxNJVCe1fFUkoOo14mi+\nJNCdu8KhSwsTwicGsWUt7cc/6QKBgQD4wOXQml8CWZCeu1OHH1JclcIRvdULeRKF\n8op/etONcZ2O0XJ1w3LMwmzQwCvCDFlekw5poO5yxt17ZMEbAM9FgIoZ8+HeBwX9\n2ALxEwohJUuZ8JfsgzgSfezAh2qveJwdk935eeOsHCgFKyvHXQjjh/2BGcnbJXRS\nQ1yh7smLgwKBgQC8mXsaE+Vf1wg9IoNeA2bmFi/S1Su6y2XiT8FhJH86M4YU2a75\ndg3aPfYLIl1Z0M46b3c4ozT6YdtXiIMopf4rLI6dXAhy4k8UbqCYusbOF9A7/6Cn\naeeKcDqSqBoWQVwwMk7AX5vQSYRJJiO52gV98DEioIs+YYghL3CZ2jhhcQKBgBMD\nI02DTvmuAMixBpxQP4pGA/Q5LxxWX50PQZimuZ6Y7XLp/TaU/qQ5w/lchrupF/eL\ng9F89FyfaHQy6jN3J2Bnh6aeJkhC/yk8plTooKCR6ipU4je4e8OmDj9U2kmZDU2R\nbKjRsR4JdOGYQBtXuAMz9KM2ZmAyh6Z18ZGK36qjAoGAHlOE0s2g2OwQix5+hbhZ\nkhhSjnlP3bt6Q0rxRWeMHIgGW8+GVKZaEIkN5dU6bgRiksBBJGE6X+n8lk/TtPc9\n3mJMofvOJFJgojZmA9lCw6znqpeRAx1m800aIS7kgGDfDicFNKudq4n5xajXxWH/\npOT4nS7lIokGUAYGdGueKRc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "softwaresmiths@cs2340-software-smiths.iam.gserviceaccount.com",
+  "client_id": "103552500262236265292",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/softwaresmiths%40cs2340-software-smiths.iam.gserviceaccount.com"
+}
